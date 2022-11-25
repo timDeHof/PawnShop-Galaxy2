@@ -45,7 +45,7 @@
     "prisma": "^4.6.1",
     "supertest": "^6.2.1"
   },
-  "proxy": "http://localhost:4000",
+  "proxy": "https://galactic-pawnshop.onrender.com",
   "browserslist": {
     "production": [
       ">0.2%",
