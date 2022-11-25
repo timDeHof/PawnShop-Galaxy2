@@ -1,0 +1,34 @@
+/* import fonts here */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* define variables here */
+  --green: green;
+  --red: red;
+  --blue: blue;
+  --primary: #1f2d3d;
+  --primary_alt: #2b5e7a;
+  --secondary: #6ca7b6;
+  --secondary_alt: #f28444;
+  --additional_color: #0d0d0d;
+}
+
+html {
+  touch-action: manipulation;
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

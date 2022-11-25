@@ -1,0 +1,148 @@
+.productImg {
+  height: 225px;
+  max-width: 225px;
+  vertical-align: middle;
+  border-radius: 0.5rem;
+  border-style: ridge;
+  outline-style: none;
+}
+
+.productImg:visited {
+  color: white;
+}
+
+.deleteProduct,
+.addToCart {
+  text-decoration: none;
+  background-color: var(--primary);
+  color: var(--secondary_alt);
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 0.25rem;
+  border: 2px outset var(--primary_alt);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.deleteProduct:hover,
+.addToCart:hover {
+  background-color: var(--secondary_alt);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--secondary_alt), 0 0 25px var(--secondary_alt),
+    0 0 50px var(--secondary_alt), 0 0 100px var(--secondary_alt);
+  cursor: pointer;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+.link {
+  text-decoration: none;
+}
+.postcard {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.product {
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+  box-shadow: 20px 20px 40px -14px var(--primary);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 1%;
+  margin: 1%;
+  width: 450px;
+  height: 625px;
+  align-items: stretch;
+  border-style: ridge;
+}
+
+.productPrice {
+  margin-top: 2rem;
+}
+
+/* .productDescription {
+  box-sizing: content-box;
+  text-overflow: ellipsis;
+} */
+
+.productPrice,
+.productCondition,
+.productDescription {
+  color: var(--primary_alt);
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  padding: 0.25rem;
+  font-weight: bold;
+  box-sizing: content-box;
+  width: fit-content;
+  justify-content: baseline;
+}
+ p {
+ color: rgb(253, 251, 189);
+  font-weight: bolder;
+display: flex;
+justify-content: center;
+}
+h1 {
+  display: flex;
+  justify-content: center; 
+}
+
+.homeTitle {
+  display: flex;
+justify-content: center;
+}
+
+.contentLabel{
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.productTitle {
+  color: var(--secondary_alt);
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Rubik Mono One", sans-serif;
+  text-shadow: 2px 0 var(--primary_alt), 0 2px var(--primary_alt),
+    2px 0 var(--primary_alt), 0 2px var(--primary_alt);
+}
+
+.productImg:hover {
+  cursor: pointer;
+}
+.productTitle:hover {
+  color: #fff;
+
+  cursor: pointer;
+}
+
+
+/* .productDescription {
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  flex: 1 1 auto;
+  font-size: 0.75rem;
+  line-height: 1.5;
+   margin-bottom: 1.25rem; 
+  font-weight: bold;
+} */
